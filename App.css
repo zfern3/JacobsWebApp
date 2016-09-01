@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+#logo {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	padding-bottom: 25px;
+}
+
+.banner {
+	background-image: url(banner.gif);
+	height: 60px;
+	width: auto;
+}
+
+body {
+	background-color: rgba(244,244,244,1.00);
+}
+
+p {
+	font-family: "Calibri", sans-serif;
+	font-size:17px;
+	color: black;
+}
+
+h1 {
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 0px; 
+	font-weight: 600; 
+}
+
+.h1 {
+	background-color: rgba(7,57,144,1.00);
+	color: white;
+}
+
+h2 {
+	font-family: "Helvetica Neue", sans-serif;
+	color:rgba(7,57,144,1.00);
+}
+
+ul {
+	font-family: "Calibri", sans-serif;
+	font-size:25px;
+	color: black;
+	margin-left: -35px;
+}
+
+ul li {
+	font-family: "Calibri", sans-serif;
+	font-size:20px;
+	color: black;
+	margin-left: 40px;
+}
+
+.home_btn {
+	background-color: white; 
+	width: 180px; 
+	border-style: solid;
+	border-width: medium;
+	border-color: rgba(225,225,225,1.00);
+	text-align: center;
+	font-size: 18px;
+	color: rgba(173,173,173,1.00);
+	font-family: "Helvetica Neue", sans-serif;
+	float:right;	
+}
+
+a:link {
+    text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: #000000;
+}
+
+
+
+.slideshow {
+	text-align: center
+}
+
+.xtra_info_box {
+	background-color: white;
+	border-style: solid;
+	border-width: medium;
+	border-color: rgba(225,225,225,1.00);
+	box-shadow: rgba(92,92,92,1.00); 
+	text-align: left;
+	width: 180px;
+	box-shadow: 3px 3px 3px #888888;
+}
+
+/*Styles specific to Projects.html*/
+#prj-btns {
+	background-color: rgba(7,57,144,1.00);
+	text-align: center;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 10px; 
+	display:flex;
+	justify-content: center; 
+	align-items:center; 
+}
+
+#container-horizontal {
+    display: flex;
+    flex-direction: row;     
+    justify-content: center;    
+}
+
+.box {
+    margin: 5px;
+	width: 100px;
+	height: 60px;   
+}
+
+/*Styles specific to index.html*/
+#home {
+	background-image: url(home.gif);
+	background-repeat: repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+.btns {
+	background-color: rgba(0,51,141,1.00);
+	text-align: center;
+	color: white;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 22px;
+	padding: 14px;
+	width: 110px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+} 
+#invisi_spc {
+	height: 25px;
+}
+
+/*Styles specific to Retail-Projects.html*/
+#video {
+	text-align: center
+}
+
+/*Styles specific to Contact Info.html*/
+#contact_us {
+	font-family: "Calibri", sans-serif;
+	font-size:20px;
+	color: black;
+	text-decoration: underline;
+}
